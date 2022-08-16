@@ -4,14 +4,14 @@ pygame.init()
 
 AMARELO = (255, 255, 0)
 PRETO = (0, 0, 0)
-RAIO = 30
-VELOCIDADE = 0.1
+RAIO = 5
+VELOCIDADE = 0.2
 
 tela = pygame.display.set_mode((640, 480), 0)
-x = 320
-y = 240
-vel_x = VELOCIDADE
-vel_y = VELOCIDADE
+x: int = 320
+y: int = 240
+vel_x: float = VELOCIDADE
+vel_y: float = VELOCIDADE
 
 while True:
 
